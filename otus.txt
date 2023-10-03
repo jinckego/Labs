@@ -1,0 +1,7 @@
+#cloud-config
+users:
+   - name: otus
+     shell: /bin/bash
+     sudo: ['ALL=(ALL) NOPASSWD:ALL']
+     ssh-authorized-keys:
+       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDf61cX8nuVonPQ+5VbYvewnO7gtoGTFc5Nz/P3XHj/jdhVC2M/bgkYjhbLoLMH8tafyoGt1imApxmGPF5iXL9Q5S3HwR1lsLSB0jeDBuWp1UfA5uVxtNqW/hh2RJd4N/aXNmfIPWd0mSPntXuMIWjJko0vGyZA6c9tw2CNcRjt8vFGYQ1YGJwXJahFRYHLaujyZIUMD3ZvwOZ+zuQhelCCXLvfi7TWPV9EiTe4kzpcAzNOt7l3JT++Dy+Eps2H6t75EoOykC17xetceCP9RRWIk4Oj3KvdHn7UhRF4Hr5+YRw11n4ujFpZlUYJA1OesLImAyqygRAOMjGyq0nMeb2NhAnQrm0OsZMZIEmPerX+Js7NNxs6qOSbG8s4iM4skxjGw/Bg7SXPrUO24tdyFi7bgbcUn1h9I8+dcHbAMUGbj54FNclMjUElUBxdcK/FalRx2sODdnnW3H9le5TkGD2t8ZSPBmYc/HlxTf/neU8yQKmXh2RBk+t3DzUQx1ILV0c= corp\dmitry.gavrilov@CPR-355B043
