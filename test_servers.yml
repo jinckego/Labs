@@ -1,0 +1,2 @@
+ruya-ng01     ansible_host=51.250.86.230      ansible_become=yes
+ruya-ng02     ansible_host=84.252.128.21      ansible_become=yes
